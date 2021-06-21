@@ -1,6 +1,7 @@
 import "./App.scss";
 import Map from "./components/Map";
 import { useState, useEffect } from "react";
+import Loader from "./components/Loader";
 
 function App() {
   const [eventData, setEventData] = useState([]);
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      {!loading ? <Map eventData={eventData} /> : <h1>Loading</h1>}
+      {!loading ? <Map eventData={eventData} /> : <Loader />}
     </div>
   );
 }
