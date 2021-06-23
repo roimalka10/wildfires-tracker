@@ -98,7 +98,6 @@ body {
   top: 95px;
   right: 22px;
   width: 525px;
-  min-height: 200px;
   padding: 20px;
   background-color: rgb(238, 238, 238);
   border: 2px solid black;
@@ -127,6 +126,15 @@ body {
     }
   }
   @media screen and(max-width:612px) {
-    width: 413px;
+    width: 82%;
+    h2 {
+      font-size: 26px;
+    }
+    li {
+      font-size: 18px;
+      span {
+        font-size: 14px;
+      }
+    }
   }
 }
