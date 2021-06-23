@@ -95,8 +95,8 @@ body {
 
 .info {
   position: absolute;
-  top: 95px;
-  right: 22px;
+  top: 6rem;
+  right: 1.4rem;
   width: 525px;
   padding: 20px;
   background-color: rgb(238, 238, 238);
@@ -126,8 +126,7 @@ body {
     }
   }
   @media screen and(max-width:612px) {
-    width: 82%;
-    right: 1px;
+    width: 85%;
     h2 {
       font-size: 26px;
     }
