@@ -134,8 +134,11 @@ body {
       }
     }
     @media screen and(max-width:650px) {
-      width: 90%;
-      top: 4.9rem;
+      width: 92%;
+      top: 4.6rem;
+      border: none;
+      border-bottom: 2px solid black;
+      border-radius: 0;
       h2 {
         font-size: 26px;
       }
